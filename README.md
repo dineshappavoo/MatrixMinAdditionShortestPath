@@ -3,7 +3,7 @@ Matrix Min Addition Shortest Path (All Pairs)
 
 This is known as min-addition operation on two matrices and is similar to multiplication of matrices with 
 the sum operation replaced by minimum and the product operation replaced by addition. We can compute these 
-in powers of 2: L(1), L(2), L(4), ... This requires lg|V | such matrix operations and hence the time complexity 
+in powers of 2: L(1), L(2), L(4), ... This requires lg|V| such matrix operations and hence the time complexity 
 is O(|V|3 log(|V|)).
 
 ##Complexity
@@ -13,7 +13,7 @@ is O(|V|3 log(|V|)).
 ##Install
 
 This library has the java implementation of Matrix Min Addition Shortest Path algorithm to find the shortest path in a 
-a directed graph G=[V,E].The following code snippet shows how to get the shortest path,
+directed graph G=[V,E].The following code snippet shows how to get the shortest path,
 
     MatrixMinAdditionShortestPath matrixMinSP=new MatrixMinAdditionShortestPath();
 	matrixMinSP.findShortestPath();
